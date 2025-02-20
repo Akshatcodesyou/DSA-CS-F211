@@ -49,7 +49,7 @@ public class MyStack {
     public static void main(String[] args) {
         MyStack myStack = new MyStack(); //need to make an instance of the main class 
         Stack s = myStack.new Stack(5); //then make an instance of the defined stack class
-        String file = "Lab2/studentin.dat"; //replace this with your file location
+        String file = "Lab2_Stack/studentin.dat"; //replace this with your file location
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
             String line;
             while ((line = reader.readLine()) != null) {
@@ -67,7 +67,7 @@ public class MyStack {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        String fileout = "Lab2/studentout.dat";
+        String fileout = "Lab2_Stack/studentout.dat";
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileout))) {
             for(int i = 0; i < s.list.length; i++) {
                 Studentrec record = s.pop();
