@@ -1,0 +1,143 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Queue",
+      "request": "launch",
+      "mainClass": "Lab4.Queue",
+      "projectName": "DSA_c1467e45"
+    },
+    {
+      "type": "java",
+      "name": "Stack",
+      "request": "launch",
+      "mainClass": "Lab3.Stack",
+      "projectName": "DSA_c1467e45"
+    },
+    {
+      "type": "java",
+      "name": "first",
+      "request": "launch",
+      "mainClass": "Lab3.first",
+      "projectName": "DSA_c1467e45"
+    },
+    {
+      "type": "java",
+      "name": "MyQueue",
+      "request": "launch",
+      "mainClass": "MyQueue",
+      "projectName": "DSA_c1467e45"
+    },
+    {
+      "type": "java",
+      "name": "MyStack",
+      "request": "launch",
+      "mainClass": "MyStack",
+      "projectName": "DSA_c1467e45"
+    },
+    {
+      "type": "java",
+      "name": "Stack",
+      "request": "launch",
+      "mainClass": "Lab2.Stack",
+      "projectName": "DSA_c1467e45"
+    },
+    {
+      "type": "java",
+      "name": "fifth",
+      "request": "launch",
+      "mainClass": "fifth",
+      "projectName": "DSA_c1467e45"
+    },
+    {
+      "type": "java",
+      "name": "fourth",
+      "request": "launch",
+      "mainClass": "fourth",
+      "projectName": "DSA_c1467e45"
+    },
+    {
+      "type": "java",
+      "name": "third",
+      "request": "launch",
+      "mainClass": "third",
+      "projectName": "DSA_c1467e45"
+    },
+    {
+      "type": "java",
+      "name": "second",
+      "request": "launch",
+      "mainClass": "second",
+      "projectName": "DSA_c1467e45"
+    },
+    {
+      "type": "java",
+      "name": "first",
+      "request": "launch",
+      "mainClass": "first",
+      "projectName": "DSA_c1467e45"
+    },
+    {
+      "type": "java",
+      "name": "first",
+      "request": "launch",
+      "mainClass": "Lab2.first",
+      "projectName": "DSA_c1467e45"
+    },
+    {
+      "type": "java",
+      "name": "Fifth",
+      "request": "launch",
+      "mainClass": "Lab1.Fifth",
+      "projectName": "DSA_c1467e45"
+    },
+    {
+      "type": "java",
+      "name": "fourth",
+      "request": "launch",
+      "mainClass": "Lab1.fourth",
+      "projectName": "DSA_c1467e45"
+    },
+    {
+      "type": "java",
+      "name": "third",
+      "request": "launch",
+      "mainClass": "Lab1.third",
+      "projectName": "DSA_c1467e45"
+    },
+    {
+      "type": "java",
+      "name": "second",
+      "request": "launch",
+      "mainClass": "Lab1.second",
+      "projectName": "DSA_c1467e45"
+    },
+    {
+      "type": "java",
+      "name": "first",
+      "request": "launch",
+      "mainClass": "Lab1.first",
+      "projectName": "DSA_c1467e45"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Coding/DSA/Lab1",
+      "program": "c:/Coding/DSA/Lab1/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

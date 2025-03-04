@@ -1,0 +1,1 @@
+// 6.	Create two text  files (file1.txt & file2.txt) with different contents in these files using any editor. Implement a program to write the contents of both files (contents of file1 followed by file2) into a third file file3.txt. Display the contents of file3.txt to validate.
