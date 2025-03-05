@@ -5,6 +5,13 @@
       "type": "java",
       "name": "Queue",
       "request": "launch",
+      "mainClass": "Lab4_Queue.Queue",
+      "projectName": "DSA_c1467e45"
+    },
+    {
+      "type": "java",
+      "name": "Queue",
+      "request": "launch",
       "mainClass": "Lab4.Queue",
       "projectName": "DSA_c1467e45"
     },
