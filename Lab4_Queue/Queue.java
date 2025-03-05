@@ -38,7 +38,15 @@ public class Queue {
             System.out.println("Queue is empty! ");
         }
         else{
-            System.out.println("")
+            System.out.println(arr[front]);
+            for(int i = front; i < rear; i++){
+                arr[front+1] = arr[front];
+            }
+            rear--;
+            System.out.println(front);
+            System.out.println(arr[front]);
+            System.out.println(rear);
+            System.out.println(Size);
         }
     }
     
