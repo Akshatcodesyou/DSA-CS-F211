@@ -60,6 +60,14 @@ public class Queue {
             return dequeuedRecord;
         }
     }
+    public void cgpa(){
+        System.out.println("printing students having less than 9 cgpa ");
+        for(int i = front; i < rear; i++){
+            if(arr[i].CGPA < 9){
+                System.out.println(arr[i].NAME);
+            }
+        }
+    }
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -84,7 +92,7 @@ public class Queue {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+        
         String fileout = "Lab4_Queue/studentout.dat";
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileout))) {
             Studentinfo record;
@@ -98,6 +106,7 @@ public class Queue {
             e.printStackTrace();
         }
 
+        
         scan.close();
     }
 }
