@@ -33,20 +33,20 @@ public class Queue {
             System.out.println("Dequeuing " + (i+1) + " element: " + arr[i]);
         }
     }
+    
     public void dequeue(){
         if(front == -1){
             System.out.println("Queue is empty! ");
         }
         else{
-            System.out.println(arr[front]);
+            System.out.println("dequeuing " +arr[front]);
             for(int i = front; i < rear; i++){
-                arr[front+1] = arr[front];
+                arr[i] = arr[i+1];
             }
             rear--;
-            System.out.println(front);
-            System.out.println(arr[front]);
-            System.out.println(rear);
-            System.out.println(Size);
+            if(rear == -1){
+                front = -1;
+            }
         }
     }
     
@@ -58,7 +58,6 @@ public class Queue {
         q1.enqueue(3);
         q1.enqueue(4);
         q1.enqueue(5);
-        q1.dequeue();
         scan.close();
     }
 }
