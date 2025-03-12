@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Lab5_DDL.Main",
+      "projectName": "DSA_c1467e45"
+    },
+    {
+      "type": "java",
+      "name": "StudentManagementSystem",
+      "request": "launch",
+      "mainClass": "Lab5_DDL.StudentManagementSystem",
+      "projectName": "DSA_c1467e45"
+    },
+    {
+      "type": "java",
+      "name": "SinglyLinkedListExample",
+      "request": "launch",
+      "mainClass": "Lab5_DDL.SinglyLinkedListExample",
+      "projectName": "DSA_c1467e45"
+    },
+    {
+      "type": "java",
       "name": "Queue",
       "request": "launch",
       "mainClass": "Lab4_Queue.Queue",
